@@ -27,7 +27,7 @@ module.exports = async function (name) {
         }
     }
     fs.mkdirp(targetDir)
-    downloadGitRepo('direct:https://git.mucang.cn/html5page-webfront/jiaxiaozhijia-gongjuhao.git', 'test', { clone: true }, function (err) {
+    downloadGitRepo('direct:git地址', 'test', { clone: true }, function (err) {
         console.log(err ? 'Error' : 'Success')
     })
     // const data = await getTemplate()
